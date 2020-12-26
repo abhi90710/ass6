@@ -105,6 +105,7 @@
 			text-align:center;
 			text-align:center;
 			font-size:30px;
+			color:grey;
 			font-family: 'Jura', sans-serif;
 			}
 			
@@ -132,8 +133,16 @@
 			width:99%;
 			height:280px;
 			}
-			.div8{
+			.div8,.div9,.div10,.div11{
 			 height:400px;
+			 width:90%;
+			}
+			.div11,.div9,.div12{
+			background-color:black;
+			width:98%;
+			}
+			.div12{
+			background-color:white;
 			}
 			.div6{
 			width:99%;
@@ -145,11 +154,11 @@
 			padding-left:180px;
 			}
 			.twelve{
-			width:60%;
-			height:40%;
-			padding-left:420px;
+			width:95%;
+			height:80%;
+			padding-left:70px;	
 			}
-			.thirteen{
+			.thirteen,.fourteen,.fifteen,.sixteen{
 			padding-bottom:100px;
 			
 			}
@@ -173,6 +182,58 @@
 			 height:300px;
 			 border:12px;
 			 }
+			 .div13,.div14{
+			 width:40%;
+			 height:30%;
+			 float:left;
+			 margin-left:50px;
+			 flex-basis:100px;
+			 padding-left:70px;
+			 background-color:grey;
+			 opacity:0.6;
+			 }
+			 .div15,.div16{
+			 
+			 width:90%;
+			 height:40%;
+			 
+			 }
+			 .c{
+			 padding-top:0;
+			 text-align:center;
+			 font-size:15px;
+			 font-family:verdana;
+			 width:99%;
+			 
+			 }
+			 
+			 @media only screen and (min-width:900px) and (max-width:1000px){
+			  
+			  .div12 .div13 div{
+			  width:10%;
+			  }
+			   
+			 }
+			 @media only screen and (max-width:760px){
+			 
+			 .div1 div,.div2 div,.div3 div,.div4 div,.div5 div,.div6 div,.div7 div
+			 ,.div8 div,.div9 div,.div10 div,.div11 div,.div12 div,.div16 div{
+			 
+			 width:50%;
+			 }
+			 
+			 
+			 }
+			  @media only screen and (max-width:576px){
+			 
+			 .div1 div,.div2 div,.div3 div,.div4 div,.div5 div,.div6 div,.div7 div
+			 ,.div8 div,.div9 div,.div10 div,.div11 div,.div12 div,.div16 div{
+			 
+			 width:100%;
+			 }
+			 
+			 }
+			 
 			
 		</style>
 	</head>
@@ -210,7 +271,7 @@
 	    </div><br>	
 		<div class="div2">
 			<div class="d9">ABOUT ME</div><br>
-			<div class="p1"><img src="imge4/potrait.PNG" width="75%"></img></div>
+			<div class="p1"><img src="imge4/potrait.png" width="75%"></img></div>
 			<div class="p2"><p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents<br><br><br>A wonderful serenity has taken possession of my entire soul, 
 			like these sweet mornings of spring which I enjoy with my whole heart.<br><br><br>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.<br><br><br><img src="imge4/download.jpg" width="40%"></img><img src="imge4/hireme.png" width="40%"></img><p></div><br>
 			<div><img src="imge4/exp.png" width="80%" class="i2"></img></div><br>
@@ -269,9 +330,62 @@
 		</div>
 		<div class="div8">
 			<div class="eleven">
-				<p class="t1"><b>BLOG POST</b></p>
+				<p class="t1"><b><u>BLOG POST</u></b></p>
 				<img src="imge4/blogimage.PNG" width="80%" class="t2"></img>
 			</div>
+		</div>
+		<div class="div9">
+			<div class="twelve">
+				<p class="t1"><b><u>WHAT CLIENT SAY!</u></b></p>
+				<img src="imge4/client.PNG" width="80%" height="90%" class="t2"></img>
+			</div>
+		</div>
+		<div class="div10">
+			<div class="fourteen">
+				<p class="t1"><b><u>MY CLIENTS</u></b></p>
+				<img src="imge4/myclient.PNG" width="85%" height="90%" class="t2"></img>
+			</div>
+		</div>
+		<div class="div11">
+			<div class="fifteen">
+				<p class="t1"><b><u>SUCCESS STORY</u></b></p>
+				<img src="imge4/success.PNG" width="85%" height="90%" class="t2"></img>
+			</div>
+		</div>
+		<div class="div12">
+			<div class="sixteen">
+				<p class="t1"><b><u>WANNA TALK</u></b></p><br><br>
+				<div class="div13">
+					<p class="t6"><b>WRITE ME</b></p>
+					<form>
+						<input type="text" name="txtname" placeholder="Your name"><br><br>
+						<input type="email" name="txtemail" placeholder="Your email"><br><br>
+						<input type="text" name="txtphone" placeholder="Phone*Use only digit"><br><br>
+						<textarea rows="7" name="Mamessage" placeholder="Comments"></textarea><br><br>
+					</form>
+					<img src="imge4/submit.jpg" width="26%"></img>
+				</div>
+				<div class="div14">
+					<p class="t6"><b>GET FREE QUOTE</b></p>
+					<form>
+						<input type="text" name="txtname" placeholder="fullname"><br><br>
+					    <input type="email" name="txtemail" placeholder="Email address"><br><br>
+						<input type="text" name="txtphone" placeholder="Phone*Use only digit"><br><br>
+						<input type="text" name="txtaddress" placeholder="address"><br><br>
+						<select name="seoptions" id="Option">
+							<option>--Select a service---</option>
+						</select><br><br><br><br>
+						<input type="image" src="imge4/submit.jpg" width="26%"><br>
+                    </form><br>				
+				</div><br><br>
+				<div class="div15">
+					<img src="imge4/contact.PNG" width="90%" height="80%" class="t2"></img>
+				</div>
+			</div>
+		</div>
+		<div class="div16">
+			<img src="imge4/copywright.PNG" width="90%" class="t2"></img>
+			<p class="c">Copyright &copy; 2020-All rights reserved-Flomic</p>
 		</div>
 	</body>
 </html>
